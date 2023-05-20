@@ -18,7 +18,7 @@ const corsOption ={
     credentials:true
 }
 
-//database connection
+//mongodb database connection
 mongoose.set('strictQuery',false)
 const connect = async () => { 
     try {
